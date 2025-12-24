@@ -1,0 +1,16 @@
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 16px;
+  /* background-color: #222; */
+  background-color: #F1F1F1;
+  /* color: white; */
+  color: #555;
+  height: 5vh;
+  display: 'flex';
+  justify-content: 'center';
+}

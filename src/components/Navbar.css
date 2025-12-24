@@ -1,0 +1,27 @@
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  position: sticky;        /* stays at top on scroll */
+  top: 0;
+  /* background-color: #222; */
+  /* background-color: #FFFFFF; */
+    background-color: #F1F1F1;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar {
+  display: flex;
+  gap: 24px;
+  padding: 16px 32px;
+}
+
+.navbar a {
+  /* color: white; */
+  color: #555;
+  /* font: Lora; */
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+  font-weight: 600;
+}
