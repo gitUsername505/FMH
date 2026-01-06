@@ -1,9 +1,11 @@
 import Footer from "../components/Footer";
+import heroImage from '../assets/HeroImage.jpg';
 
 export default function Home() {
   return (<>
   <div style={{
-    background:  'linear-gradient(rgba(246, 249, 252, 0.85),rgba(246, 249, 252, 0.85)),url("/public/HeroImage.jpg")',
+    // background:  'linear-gradient(rgba(246, 249, 252, 0.85),rgba(246, 249, 252, 0.85)),url("/public/HeroImage.jpg")',
+    background:  `linear-gradient(rgba(246, 249, 252, 0.85),rgba(246, 249, 252, 0.85)),url(${heroImage})`,
      backgroundSize: 'cover',
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',

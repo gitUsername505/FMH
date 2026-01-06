@@ -5,7 +5,6 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Forms from './pages/Forms'
 import Services from './pages/Services'
-import Footer from './components/Footer'
 
 
 export default function App() {
